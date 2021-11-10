@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhLichTrinh">
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lichtrinh_tieude"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <LinearLayout
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="37dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="99dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/mucdatao_selected" />
+
+                <ImageButton
+                    android:layout_marginLeft="46dp"
+                    android:id="@+id/btnXacNhanDi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/xacnhandi" />
+
+                <ImageButton
+                    android:id="@+id/btnDaDi"
+                    android:layout_marginLeft="46dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/dadi" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh"
+                android:layout_width="343dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnThongTinLichTrinh"
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinh1">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="9dp">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hội An"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="10/09/2020"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+                    <ImageButton
+                        android:layout_marginLeft="19dp"
+                        android:id="@+id/btnThemNua"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"
+                        android:layout_gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh1"
+                android:layout_width="343dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinh2">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="9dp">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hà Tĩnh"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="09/12/2019"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+                    <ImageButton
+                        android:layout_marginLeft="19dp"
+                        android:id="@+id/btnThemNua1"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"
+                        android:layout_gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh2"
+                android:layout_width="343dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinh3">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="9dp">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Bến Tre"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="23/11/2020"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+                    <ImageButton
+                        android:layout_marginLeft="19dp"
+                        android:id="@+id/btnThemNua2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"
+                        android:layout_gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTaoLichTrinh"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/rounded_button"
+                android:text="Tạo lịch trình"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="565dp" />
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="359dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-16dp"
+                android:layout_marginRight="-16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="600dp">
+
+                <ImageButton
+                    android:id="@+id/btnTrangchu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="43dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/home_unselected"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnLichTrinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/lichtrinh_selected"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnTinNhan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/tinnhan"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnTaiKhoan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/taikhoan"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

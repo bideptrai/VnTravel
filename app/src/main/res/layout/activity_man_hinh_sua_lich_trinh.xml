@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhSuaLichTrinh"
+    android:background="@drawable/sualichtrinh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp">
+
+            <ImageButton
+                android:id="@+id/btnQuayLaiTrangTruoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/back"></ImageButton>
+
+            <TextView
+                android:layout_width="287dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Phú Quốc"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat"></TextView>
+
+            <ImageButton
+                android:id="@+id/btnSuaTenLichTrinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit_bigger"></ImageButton>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edttSearch"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_search_white"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="10dp"
+            android:hint="Nhập địa điểm đến"
+            android:paddingLeft="15dp"
+            android:textColorHint="#C3B8B6"
+            android:textSize="16sp"></EditText>
+        //Search
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDiaDiem"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_selector"
+                    android:text="Địa điểm"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"></Button>
+                //Diadiem
+
+                <Button
+                    android:id="@+id/btnKhachSan"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/button_selector"
+                    android:text="Khách sạn"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"></Button>
+                //Khachsan
+
+                <Button
+                    android:id="@+id/btnNhaHang"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/button_selector"
+                    android:text="Nhà hàng"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"></Button>
+                //Diadiem
+
+                <Button
+                    android:id="@+id/btnPtdc"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/button_selector"
+                    android:text="Phương tiện di chuyển"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"></Button>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/btnDiNhieu3"
+                android:layout_width="343dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/thongbao">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="9dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/chitiet_goiy2">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Mù Căng Chải"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:srcCompat="@drawable/danhgia"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Bình Dương"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"  ></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Núi"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+                    <ImageButton
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/btnLuu1"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/luu_activated"
+                        android:layout_gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageButton>
+                </LinearLayout>
+
+            </LinearLayout>
+            //DiaDiem2
+            <LinearLayout
+                android:id="@+id/btnDiNhieu4"
+                android:layout_width="343dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="16dp">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/thongbao">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="9dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/chitiet_goiy2">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Mù Căng Chải"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:srcCompat="@drawable/danhgia"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Bình Dương"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"  ></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Núi"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"></TextView>
+                    </LinearLayout>
+                    <ImageButton
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/btnLuu2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/luu_activated"
+                        android:layout_gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageButton>
+                </LinearLayout>
+
+            </LinearLayout>
+            //DiaDiem2
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

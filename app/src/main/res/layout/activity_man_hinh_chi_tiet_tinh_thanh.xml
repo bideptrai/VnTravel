@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhChiTietDiaDiem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chitiet_tinhthanh_trang">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginRight="16dp">
+
+                <ImageButton
+                    android:id="@+id/btnQuayLaiTrangTruoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/back_white"></ImageButton>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnChiaSe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="22dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/share"></ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/btnLuu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/save"></ImageButton>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="225dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+
+                    android:src="@drawable/slide"></ImageView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="241dp"
+            android:background="@drawable/nen">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tỉnh Hà Giang"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Miền núi"
+                        android:textColor="#C3B8B6"
+                        android:textSize="16dp"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/danhgia_nho"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:textColor="#C3B8B6"
+                            android:text="10.973"
+                            android:textSize="16sp"></TextView>
+                    </LinearLayout>
+                    //danhgia
+                </LinearLayout>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="105dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/thoitiet">
+                </ImageButton>
+            </LinearLayout>
+            //ThongtinDiaChi
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Giới thiệu"
+                        android:textColor="#433433"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Nằm dưới chân Nằm dưới chân những ngọn núi tai mèo hiểm trở của Hà Giang,
+dòng sông Nho Quế quanh năm êm đềm chảy giữa những vách
+đá, tạo thành một đường biên giới màu xanh biếc giữa đèo Mã Pì"
+                        android:textColor="#433433"
+                        android:textSize="12sp"></TextView>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@android:color/transparent"
+                        android:drawableBottom="@drawable/down"
+                        android:text="Xem thêm"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="16sp"></Button>
+                </LinearLayout>
+                //Gioithieu
+            </RelativeLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/map"></ImageButton>
+            //Bando
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="570dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="Địa điểm phổ biến"
+                        android:textColor="#433433"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:background="@android:color/transparent"
+                        android:drawableRight="@drawable/next1"
+                        android:text="Xem tất cả"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="12sp"></Button>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16sp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/diadiemphobien1"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/diadiemphobien2"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/diadiemphobien3"></ImageButton>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            //Điaiemphobien
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="820dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="Khách sạn phổ biến"
+                        android:textColor="#433433"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:background="@android:color/transparent"
+                        android:drawableRight="@drawable/next1"
+                        android:text="Xem tất cả"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="12sp"></Button>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16sp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/khachsanphobien1"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/khachsanphobien2"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/khachsanphobien3"></ImageButton>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            //Khachsanphobien
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1070dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="Dịch vụ di chuyển"
+                        android:textColor="#433433"
+                        android:textSize="16sp"
+                        android:textStyle="bold"></TextView>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:background="@android:color/transparent"
+                        android:drawableRight="@drawable/next1"
+                        android:text="Xem tất cả"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="12sp"></Button>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16sp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/dichvuphobien1"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/dichvuphobien2"></ImageButton>
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/dichvuphobien3"></ImageButton>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            //Dichvudichuyen
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="1300dp"
+                android:layout_marginRight="32dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:drawableBottom="@drawable/gachchan"
+                        android:text="Đánh giá"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="16sp"></Button>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="Cẩm nang"
+                        android:textAllCaps="false"
+                        android:textColor="#433433"
+                        android:textSize="16sp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+            //Chitietdanhgia
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1370dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/danhgia1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4,7"
+                        android:textColor="#433433"
+                        android:textSize="36sp"
+                        android:textStyle="bold"></TextView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/danhgia_so"
+                        android:layout_marginLeft="11dp"
+                        android:layout_gravity="center_vertical">
+                    </ImageView>
+                </LinearLayout>
+                <ImageView
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/thongke">
+                </ImageView>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1620dp"
+                android:src="@drawable/danhsachdanhgia"></ImageView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2170dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/rounded_button"
+                android:text="Xem thêm đánh giá"
+                android:textColor="@color/white"
+                android:textAllCaps="false">
+            </Button>
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="1610dp"-->
+<!--                android:layout_marginLeft="16dp"-->
+<!--                android:layout_marginRight="16dp"-->
+<!--                android:src="@drawable/line">-->
+<!--            </ImageView>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="1622dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginLeft="16dp"-->
+<!--                            android:text="Khách sạn phổ biến"-->
+<!--                            android:textColor="#433433"-->
+<!--                            android:textSize="16sp"-->
+<!--                            android:textStyle="bold"></TextView>-->
+
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="120dp"-->
+<!--                            android:background="@android:color/transparent"-->
+<!--                            android:drawableRight="@drawable/next1"-->
+<!--                            android:text="Xem tất cả"-->
+<!--                            android:textAllCaps="false"-->
+<!--                            android:textColor="#433433"-->
+<!--                            android:textSize="12sp"></Button>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <HorizontalScrollView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="16sp"-->
+<!--                        android:scrollbars="none">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content">-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/khachsan1"></ImageButton>-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/khachsan2"></ImageButton>-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/khachsan3"></ImageButton>-->
+<!--                        </LinearLayout>-->
+<!--                    </HorizontalScrollView>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_marginTop="32dp"-->
+<!--                    android:layout_marginBottom="32dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginLeft="16dp"-->
+<!--                            android:text="Dịch vụ di chuyển"-->
+<!--                            android:textColor="#433433"-->
+<!--                            android:textSize="16sp"-->
+<!--                            android:textStyle="bold"></TextView>-->
+
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="135dp"-->
+<!--                            android:background="@android:color/transparent"-->
+<!--                            android:drawableRight="@drawable/next1"-->
+<!--                            android:text="Xem tất cả"-->
+<!--                            android:textAllCaps="false"-->
+<!--                            android:textColor="#433433"-->
+<!--                            android:textSize="12sp"></Button>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <HorizontalScrollView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="16sp"-->
+<!--                        android:scrollbars="none">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content">-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/dichvu1"></ImageButton>-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginLeft="16dp"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/dichvu2"></ImageButton>-->
+
+<!--                            <ImageButton-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginLeft="16dp"-->
+<!--                                android:background="@android:color/transparent"-->
+<!--                                android:src="@drawable/dichvu3"></ImageButton>-->
+<!--                        </LinearLayout>-->
+<!--                    </HorizontalScrollView>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

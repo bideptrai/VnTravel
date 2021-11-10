@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhLichTrinh">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lichtrinh_tieude"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="37dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="99dp">
+
+                <ImageButton
+                    android:id="@+id/btnMucDaTao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/mucdatao" />
+
+                <ImageButton
+                    android:id="@+id/btnXacNhanDi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="46dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/xacnhandi" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="46dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/dadi_selected" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh"
+                android:layout_width="343dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnThongTinLichTrinh"
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinhdadi1">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hà Nội hè 2018"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Ngày đi: 16/03/2018"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Đánh giá (2)"
+                            android:textColor="#7A7A7A"
+                            android:textSize="14sp"></TextView>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnThemNua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="19dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"></ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh1"
+                android:layout_width="343dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinhdadi2">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Quảng Ninh t3"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Ngày đi: 16/03/2018"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Đánh giá (2)"
+                            android:textColor="#7A7A7A"
+                            android:textSize="14sp"></TextView>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnThemNua1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="19dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"></ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh2"
+                android:layout_width="343dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinhdadi3">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Đà Nẵng 2017"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Ngày đi: 16/03/2018"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Đánh giá (2)"
+                            android:textColor="#7A7A7A"
+                            android:textSize="14sp"></TextView>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnThemNua2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="19dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"></ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnChitietLichtrinh3"
+                android:layout_width="343dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_input"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="343dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="128dp"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/lichtrinhdadi2">></ImageButton>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Bến Tre"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Ngày đi: 16/03/2018"
+                            android:textColor="#7A7A7A"
+                            android:textSize="12sp"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Đánh giá (2)"
+                            android:textColor="#7A7A7A"
+                            android:textSize="14sp"></TextView>
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnThemNua3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="19dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/more"></ImageButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="-16dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="600dp">
+
+                <ImageButton
+                    android:id="@+id/btnTrangchu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="43dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/home_unselected"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnLichTrinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/lichtrinh_selected"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnTinNhan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/tinnhan"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnTaiKhoan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="66dp"
+                    android:background="@color/white"
+                    app:srcCompat="@drawable/taikhoan"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

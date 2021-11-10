@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ManHinhDiNhieu"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/btnQuayLaiTrangTruoc"
+                android:src="@drawable/back"
+                android:background="@android:color/transparent">
+            </ImageButton>
+            //btnQuayLai
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:text="Đi nhiều"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#433433">
+            </TextView>
+            //txtDiNhieu
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/btnSearch"
+                android:src="@drawable/search"
+                android:background="@android:color/transparent">
+            </ImageButton>
+            //btnQuayLai
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_marginTop="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/btnDiNhieu2"
+                    android:layout_width="343dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="343dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageButton
+                            android:layout_width="128dp"
+                            android:layout_height="104dp"
+                            android:layout_marginLeft="9dp"
+                            android:background="@color/white"
+                            app:srcCompat="@drawable/chitiet_dinhieu1">></ImageButton>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="22dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Vịnh Hạ Long"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"></TextView>
+
+                            <ImageView
+                                android:layout_width="84dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:srcCompat="@drawable/danhgia"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Quảng Ninh"
+                                android:textColor="#7A7A7A"
+                                android:textSize="12sp"></TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Biển, đảo"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"></TextView>
+                        </LinearLayout>
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btnLuu"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/luu_activated"
+                            android:layout_gravity="top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </ImageButton>
+                    </LinearLayout>
+
+                </LinearLayout>
+                //DiaDiem1
+
+                <LinearLayout
+                    android:id="@+id/btnDiNhieu3"
+                    android:layout_width="343dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="343dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageButton
+                            android:layout_width="128dp"
+                            android:layout_height="104dp"
+                            android:layout_marginLeft="9dp"
+                            android:background="@color/white"
+                            app:srcCompat="@drawable/chitiet_dinhieu2">></ImageButton>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="22dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Cố Đô Huế"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <ImageView
+                                android:layout_width="84dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:srcCompat="@drawable/danhgia"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Thừa Thiên Huế"
+                                android:textColor="#7A7A7A"
+                                android:textSize="12sp"></TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Biển, đảo"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"></TextView>
+                        </LinearLayout>
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btnLuu1"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/button_state"
+                            android:layout_gravity="top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </ImageButton>
+                    </LinearLayout>
+
+                </LinearLayout>
+                //DiaDiem2
+
+                <LinearLayout
+                    android:id="@+id/btnDiNhieu5"
+                    android:layout_width="343dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="343dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageButton
+                            android:layout_width="128dp"
+                            android:layout_height="104dp"
+                            android:layout_marginLeft="9dp"
+                            android:background="@color/white"
+                            app:srcCompat="@drawable/chitiet_dinhieu3">></ImageButton>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="22dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Đồng Tháp Mười"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <ImageView
+                                android:layout_width="84dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:srcCompat="@drawable/danhgia"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Cao Lãnh,Đồng Tháp"
+                                android:textColor="#7A7A7A"
+                                android:textSize="12sp"></TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Vườn quốc gia"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"></TextView>
+                        </LinearLayout>
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btnLuu2"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/button_state"
+                            android:layout_gravity="top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </ImageButton>
+                    </LinearLayout>
+
+                </LinearLayout>
+                //DiaDiem3
+
+                <LinearLayout
+                    android:id="@+id/btnDiNhieu4"
+                    android:layout_width="343dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_input"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="343dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageButton
+                            android:layout_width="128dp"
+                            android:layout_height="104dp"
+                            android:layout_marginLeft="9dp"
+                            android:background="@color/white"
+                            app:srcCompat="@drawable/chitiet_dinhieu4">></ImageButton>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="22dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="Rừng tràm Trà Sư"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"></TextView>
+
+                            <ImageView
+                                android:layout_width="84dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:srcCompat="@drawable/danhgia"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Bình Dương"
+                                android:textColor="#7A7A7A"
+                                android:textSize="12sp"></TextView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Rừng quốc gia"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"></TextView>
+                        </LinearLayout>
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/btnLuu3"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/button_state"
+                            android:layout_gravity="top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </ImageButton>
+                    </LinearLayout>
+
+                </LinearLayout>
+                //DiaDiem4
+            </LinearLayout>
+
+        </ScrollView>
+        //DanhsachDiaDiem
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginRight="-16dp"
+            android:layout_marginLeft="-16dp">
+
+            <ImageButton
+                android:id="@+id/btnTrangchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/home"
+                android:background="@color/white"
+                android:layout_marginLeft="43dp"
+                android:layout_gravity="center_vertical">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btnLichTrinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lichtrinh"
+                android:background="@color/white"
+                android:layout_marginLeft="66dp"
+                android:layout_gravity="center_vertical">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btnTinNhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tinnhan"
+                android:background="@color/white"
+                android:layout_marginLeft="66dp"
+                android:layout_gravity="center_vertical">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btnTaiKhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/taikhoan"
+                android:background="@color/white"
+                android:layout_marginLeft="66dp"
+                android:layout_gravity="center_vertical">
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

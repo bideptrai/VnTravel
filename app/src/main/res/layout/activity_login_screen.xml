@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="24dp">
+    <TextView
+        android:text="Đăng nhập"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    //inputEmail
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/inputEmail"
+        android:paddingLeft="26dp"
+        android:hint="Email"
+        android:textColor="#C4C4C4"
+        android:background="@drawable/rounded_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </EditText>
+
+    //inputPassword
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_input"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="26dp"
+            android:singleLine="true"
+            android:textColor="#C4C4C4"></EditText>
+
+        <ImageView
+            android:id="@+id/show_pass_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:alpha=".5"
+            android:onClick="ShowHidePass"
+            android:src="@drawable/eye"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+    //buttonQuenMatKhau
+    <Button
+        android:id="@+id/btnQuenMK"
+        android:layout_marginTop="-20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent">
+    </Button>
+
+    //buttonDangNhap
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btnDangNhap"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button">
+    </Button>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="Hoặc đăng nhập với"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    //buttonDangNhapKhac
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        //Google
+        <Button
+            android:textColor="@color/white"
+            android:background="@drawable/google_button"
+            android:layout_width="163dp"
+            android:layout_height="56dp"
+            android:drawableLeft="@drawable/google"
+            android:paddingLeft="20px"
+            android:text="Google"
+            android:textSize="16dp"
+            android:textAllCaps="false">
+        </Button>
+        //Facebook
+        <Button
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/facebook_button"
+            android:layout_width="163dp"
+            android:paddingLeft="20px"
+            android:drawableLeft="@drawable/facebook"
+            android:layout_height="56dp"
+            android:textSize="16dp"
+            android:text="Facebook"
+            android:textAllCaps="false">
+        </Button>
+    </LinearLayout>
+
+    //Dangky
+    <LinearLayout
+        android:layout_marginTop="125dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Chưa có tài khoản?"
+            android:textColor="@color/black"
+            android:textSize="16dp"></TextView>
+        //buttonDangKy
+
+        <Button
+            android:id="@+id/buttonDangKy"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:text="Đăng ký"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+</LinearLayout>

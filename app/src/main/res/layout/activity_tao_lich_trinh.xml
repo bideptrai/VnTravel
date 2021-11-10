@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaoLichTrinh"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_input">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/trangtri"
+        android:layout_marginTop="14dp">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo lịch trình"
+        android:textColor="#433433"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên lịch trình"
+        android:textColor="#433433"
+        android:textSize="14sp">
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="50dp"
+        android:hint="Ví dụ: Cuối tuần ở HN"
+        android:paddingLeft="20dp"
+        android:background="@drawable/rounded_input">
+    </EditText>
+
+    <RelativeLayout
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp">
+
+        <Button
+            android:id="@+id/btnHoanTat"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_button"
+            android:text="Tạo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"></Button>
+
+    </RelativeLayout>
+</LinearLayout>
